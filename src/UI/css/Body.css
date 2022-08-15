@@ -1,0 +1,69 @@
+.body {
+  flex: 0.8;
+  background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 1));
+  height: 100vh;
+  color: white;
+  padding: 30px;
+  overflow-y: overlay;
+}
+
+.body__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.body__info > img {
+  width: 20vw;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__info-text {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.body__info-text > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.body__info-text > p {
+  font-size: 14px;
+}
+
+.body__icons {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.body__icons > .MuiSvgIcon-root {
+  transition: all 200ms ease-in-out !important;
+}
+
+.body__icons > .MuiSvgIcon-root:not(:last-child) {
+  margin-right: 20px;
+}
+
+.body__icons > .MuiSvgIcon-root:not(:first-child) {
+  color: #bcbcbc;
+}
+
+.body__icons > .MuiSvgIcon-root:not(:first-child):hover {
+  color: white;
+}
+
+.body__shuffle {
+  font-size: 80px !important;
+  color: #1ed760;
+}
+
+.body__shuffle:hover {
+  transform: scale(1.08) !important;
+}
+
+.footer2 {
+  margin: 15px 15px 90px 15px;
+  text-align: center;
+  font-size: 15px;
+}
