@@ -4,7 +4,7 @@
 export const authEndPoint = 'https://accounts.spotify.com/authorize';
 
 // redirectUri
-const redirectUri = 'https://helpful-kelpie-4d2aa4.netlify.app/';
+const redirectUri = 'https://spotify-clone-gn.netlify.app/';
 
 // Client ID
 const clientId = '0c5f6b179af34da3b4adc928a6c9f8d7';
